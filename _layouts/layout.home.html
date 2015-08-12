@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  {% include include.head.html %}
+
+  <body>
+
+    {% include include.header.html %}
+
+    <div class="mt2 container">
+      <div class="clearfix mxn2">
+        <div class="flex">
+          <aside class="col-2 p2 pr0">
+            <div class="rounded border">
+
+              {% include include.nav.html %}
+
+            </div>
+          </aside>
+          <div class="col-10 p2">
+            <section id="publications" class="px2">
+              <div class="overflow-scroll">
+                <table class="table-light merriweather">
+                  <thead>
+                    <th class="h2 bg-silver rounded" colspan="2">Publications</th>
+                  </thead>
+                  <tbody>
+
+                    {% include include.publication_list.html %}
+
+                  </tbody>
+                </table>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
