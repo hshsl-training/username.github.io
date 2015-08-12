@@ -1,3 +1,48 @@
 ---
-layout: layout.home
 ---
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://d2v52k3cl9vedd.cloudfront.net/basscss/5.0.0/basscss.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>{{ site.name }}</title>
+    <meta name="description" content="Personal profile page for {{ site.name }}">
+    <meta name="author" content="Brian Zelip">
+  </head>
+
+  <body>
+
+    <div class="py4 container">
+      <div class="clearfix center">
+        <div class="col-8 mx-auto">
+          <img src="{{ site.selfie_URL }}" class="block mx-auto border circle" alt="{{ site.name }} selfie" title="{{ site.name }} selfie">
+          <h1>{{ site.name }},
+            {% for degree in site.degrees %}
+            {{ degree }}{% if forloop.last == false %},{% endif %}
+            {% endfor %}
+          </h1>
+          <p class="h3 m0">{{ site.job_title }}</p>
+          <p class="h4 m0"><a href="{{ site.department_URL }}">{{ site.department_name }}</a></p>
+          <p class="h4 m0"><a href="{{ site.institution_URL }}">{{ site.institution_name }}</a></p>
+        </div>
+        <div class="sm-col-5 mx-auto mt3">
+          <div class="mt2 flex flex-auto justify-around" id="icons">
+            <a href="mailto:{{ site.email }}"><i class="fa fa-envelope-o fa-3x"></i></a>
+            <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-3x"></i></a>
+            <a href="{{ site.linkedin_URL }}"><i class="fa fa-linkedin fa-3x"></i></a>
+            <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-3x"></i></a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
