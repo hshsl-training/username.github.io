@@ -268,3 +268,24 @@ body {
   font-size: 1.5rem;
   font-family: "Merriweather";
 }
+
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+#icons a {
+  color: #222;
+}
+
+#icons a:hover {
+  color: #0074d9; 
+}

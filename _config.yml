@@ -1,0 +1,30 @@
+# Personal data
+
+name: 
+
+email: 
+
+job_title: 
+
+degrees: [] # format degrees in quotes and separated by comma, ie: ["MS","Ph.D"]
+
+institution_name: 
+
+institution_URL: 
+
+department_name: 
+
+department_URL: 
+
+github_username: 
+
+twitter_username: 
+
+linkedin_URL: 
+
+selfie_URL: 
+
+
+# Site data
+markdown: kramdown
+permalinks: pretty
