@@ -22,7 +22,8 @@
       <div class="clearfix center">
         <div class="col-8 mx-auto">
           <img src="{{ site.selfie_URL }}" class="block mx-auto border circle" alt="{{ site.name }} selfie" title="{{ site.name }} selfie">
-          <h1>{{ site.name }},
+          <h1>
+            {{ site.name }},
             {% for degree in site.degrees %}
             {{ degree }}{% if forloop.last == false %},{% endif %}
             {% endfor %}

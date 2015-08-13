@@ -8,12 +8,11 @@
 # Comments are ignored by the software that feeds your info below
 # into the web page template.
 
-# This file is a part of the HSHSL workshop Using GitHub to Manage Your Scholarly Work.
 
 name: 
 email: 
 job_title: 
-degrees: [] # format degrees in quotes and separated by comma, ie: ["MS","Ph.D"]
+degrees: [] # type your degrees inside the square brackets in quotes and separated by a comma, ie: ["BA","MS","Ph.D"]
 institution_name: 
 institution_URL: 
 department_name: 
@@ -24,6 +23,6 @@ linkedin_URL:
 selfie_URL: 
 
 
-# Site data
+# Technical configuration
 markdown: kramdown
 permalinks: pretty
