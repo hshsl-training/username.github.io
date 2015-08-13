@@ -1,27 +1,26 @@
-# Personal data
+# Hi!
+
+# This file customizes a web page template with your info.
+# Type in the appropriate info items below
+
+# Lines of text that begin with # are COMMENTS.
+
+# Comments are ignored by the software that feeds your info below
+# into the web page template.
+
+# This file is a part of the HSHSL workshop Using GitHub to Manage Your Scholarly Work.
 
 name: 
-
 email: 
-
 job_title: 
-
 degrees: [] # format degrees in quotes and separated by comma, ie: ["MS","Ph.D"]
-
 institution_name: 
-
 institution_URL: 
-
 department_name: 
-
 department_URL: 
-
 github_username: 
-
 twitter_username: 
-
 linkedin_URL: 
-
 selfie_URL: 
 
 
