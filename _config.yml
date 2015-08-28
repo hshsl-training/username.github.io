@@ -24,7 +24,7 @@ linkedin_URL:
 selfie_URL: 
 
 social:
-  have_twitter: false
+  have_twitter: true
   have_linkedin: true
 
 # Technical configuration
