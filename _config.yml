@@ -8,6 +8,7 @@
 # Comments are ignored by the software that feeds your info below
 # into the web page template.
 
+# This file is a part of the HSHSL workshop Using GitHub to Manage Your Scholarly Work.
 
 name: 
 email: 
@@ -22,6 +23,9 @@ twitter_username:
 linkedin_URL: 
 selfie_URL: 
 
+social:
+  have_twitter: false
+  have_linkedin: true
 
 # Technical configuration
 markdown: kramdown
