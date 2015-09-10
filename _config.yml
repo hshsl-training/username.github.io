@@ -14,18 +14,20 @@ name:
 email: 
 job_title: 
 degrees: [] # type your degrees inside the square brackets in quotes and separated by a comma, ie: ["BA","MS","Ph.D"]
-institution_name: 
-institution_URL: 
+institution_name: University of Maryland, Baltimore
+institution_URL: http://umaryland.edu
 department_name: 
 department_URL: 
+
+options:
+  have_selfie: false
+  have_twitter: false
+  have_linkedin: true
+
 github_username: 
 twitter_username: 
 linkedin_URL: 
 selfie_URL: 
-
-social:
-  have_twitter: true
-  have_linkedin: true
 
 # Technical configuration
 markdown: kramdown

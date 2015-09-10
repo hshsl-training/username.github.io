@@ -21,7 +21,12 @@
     <div class="py4 container">
       <div class="clearfix center">
         <div class="col-8 mx-auto">
+          {% if site.options.have_selfie == true %}
           <img src="{{ site.selfie_URL }}" class="block mx-auto border circle" alt="{{ site.name }} selfie" title="{{ site.name }} selfie">
+          {% endif %}
+          {% if site.options.have_selfie == false %}
+          <img src="http://placehold.it/350x350" class="block mx-auto border circle" alt="{{ site.name }} selfie" title="{{ site.name }} selfie">
+          {% endif %}
           <h1>
             {{ site.name }},
             {% for degree in site.degrees %}
@@ -35,10 +40,10 @@
         <div class="sm-col-5 mx-auto mt3">
           <div class="mt2 flex" id="icons">
             <a class="flex-auto" href="mailto:{{ site.email }}"><i class="fa fa-envelope-o fa-3x"></i></a>
-            {% if site.social.have_twitter == true %}
+            {% if site.options.have_twitter == true %}
             <a class="flex-auto" href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-3x"></i></a>
             {% endif %}
-            {% if site.social.have_linkedin == true %}
+            {% if site.options.have_linkedin == true %}
             <a class="flex-auto" href="{{ site.linkedin_URL }}"><i class="fa fa-linkedin fa-3x"></i></a>
             {% endif %}
             <a class="flex-auto" href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-3x"></i></a>
